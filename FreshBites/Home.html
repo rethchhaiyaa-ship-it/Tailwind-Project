@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body  class="font-['Playfair_Display'] text-white">
+    <div class="bg-[url(https://images.unsplash.com/photo-1565895405227-31cffbe0cf86?w=1800&h=1000&fit=crop&auto=format)] bg-black/70 bg-blend-overlay">
+        <!-- Navbar -->
+        <div class="container flex flex-col md:flex-row h-auto items-center p-5">
+            <div class="md:w-[55%] md:text-left flex justify-start ps-[120px] h-full border-0 border-amber-500">
+                <h1 class="text-2xl font-medium font-serif tracking-widest">FRESH BITES</h1>
+            </div>
+            <div class="md:w-[45%] h-full mt-4 md:mt-0">
+                <ul class="flex flex-wrap gap-8 text-1xl items-center justify-center">
+                    <li class="hover:text-amber-600"><a href="">HOME</a></li>
+                    <li class="hover:text-amber-600"><a href="">MENU</a></li>
+                    <li class="hover:text-amber-600"><a href="">ABOUT</a></li>
+                    <li class="hover:text-amber-600"><a href="">GALLERY</a></li>
+                    <li class="hover:text-amber-600"><a href="">BLOG</a></li>
+                    <li class="hover:text-amber-600"><a href="">CONTACT</a></li>
+                    <li class="hover:bg-[#b5682e] transition-colors duration-200"><a href=""><button class="bg-amber-600 p-2 w-[120px]">RESERVES</button></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Contain -->
+        <div class="w-full h-[90vh] border-0 flex flex-col justify-center items-center text-center">
+            <p class="uppercase mb-8 text-amber-600 tracking-[0.5em]">Est. 2008 · Paris, France</p>
+            <h1 class="lg:text-8xl md:text-6xl text-4xl font-serif font-medium">Where Every Dish</h1>
+            <h1 class="lg:text-8xl md:text-6xl text-4xl font-serif italic font-medium">Tell a Story</h1>
+            <p class="mt-8 text-[19px] font-serif max-w-3xl">
+            Classical French cuisine reimagined through the lens of contemporary
+            artistry and the finest seasonal produce.
+            </p>
+            <div class="flex flex-col md:flex-row mt-5 gap-5">
+                <button class="bg-amber-600 h-11 w-[50vw] md:w-[200px] lg:w-[200px] hover:bg-[#b5682e] transition-colors duration-200">RESERVE A TABLE</button>
+                <button class="border h-11 w-[50vw] md:w-[200px] lg:w-[200px] flex items-center justify-center gap-2 hover:bg-white/10 transition-colors duration-200">EXPLOR MENU
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full py-8 border-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-8xl mx-auto gap-8 ps-14" style="background-color: rgb(28, 21, 12);">
+        <div class="flex items-center gap-3">
+            <div class="w-[45px] h-[45px] border-amber-600 border-[1px] flex justify-center items-center flex-shrink-0">
+                <span class="text-amber-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"/>
+                <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"/>
+                </svg></span>
+            </div>
+            <div class="w-auto h-auto">
+                <span class=" text-2xl text-white items-center">2</span> <br>
+                <span class="text-mauve-400 font-serif">MICHELIN STARS</span>
+            </div>
+        </div>
+        <div class="flex items-center gap-3">
+            <div class="w-[45px] h-[45px] border-amber-600 border-[1px] flex justify-center items-center">
+                <span class="text-amber-600"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+                </svg></span>
+            </div>
+            <div class="w-auto h-auto">
+                <span class="text-2xl text-white items-center">18+</span> <br>
+                <span class="text-mauve-400 font-serif">YEARS OF EXELLENCE</span>
+            </div>
+        </div>
+        <div class="flex items-center gap-3">
+            <div class="w-[45px] h-[45px] border-amber-600 border-[1px] flex justify-center items-center">
+                <span class="text-amber-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                    <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+                    </svg>
+                </span>
+            </div>
+            <div class="w-auto h-auto">
+                <span class=" text-2xl text-white items-center">50K+</span> <br>
+                <span class="text-mauve-400 font-serif">HAPPY GUESTS</span>
+            </div>
+        </div>
+        <div class="flex items-center gap-3">
+            <div class="w-[45px] h-[45px] border-amber-600 border-[1px] flex justify-center items-center">
+                <span class="text-amber-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-leaf" viewBox="0 0 16 16">
+                    <path d="M1.4 1.7c.216.289.65.84 1.725 1.274 1.093.44 2.884.774 5.834.528l.37-.023c1.823-.06 3.117.598 3.956 1.579C14.16 6.082 14.5 7.41 14.5 8.5c0 .58-.032 1.285-.229 1.997q.198.248.382.54c.756 1.2 1.19 2.563 1.348 3.966a1 1 0 0 1-1.98.198c-.13-.97-.397-1.913-.868-2.77C12.173 13.386 10.565 14 8 14c-1.854 0-3.32-.544-4.45-1.435-1.125-.887-1.89-2.095-2.391-3.383C.16 6.62.16 3.646.509 1.902L.73.806zm-.05 1.39c-.146 1.609-.008 3.809.74 5.728.457 1.17 1.13 2.213 2.079 2.961.942.744 2.185 1.22 3.83 1.221 2.588 0 3.91-.66 4.609-1.445-1.789-2.46-4.121-1.213-6.342-2.68-.74-.488-1.735-1.323-1.844-2.308-.023-.214.237-.274.38-.112 1.4 1.6 3.573 1.757 5.59 2.045 1.227.215 2.21.526 3.033 1.158.058-.39.075-.782.075-1.158 0-.91-.288-1.988-.975-2.792-.626-.732-1.622-1.281-3.167-1.229l-.316.02c-3.05.253-5.01-.08-6.291-.598a5.3 5.3 0 0 1-1.4-.811"/>
+                    </svg>
+                </span>
+            </div>
+            <div class="w-auto h-auto">
+                <span class=" text-2xl text-white items-center">100%</span> <br>
+                <span class="text-mauve-400 font-serif">SEASONAL LOCAL PRODUCE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Chef's Section -->
+    <div class="w-full py-20 border-2">
+        <div class="flex flex-col justify-center m-auto text-center mt-24">
+            <p class="text-amber-500 tracking-[0.3em] text-[12px]">CHEF'S SECTION</p> <br>
+            <h1 class="text-black text-6xl">Signature Dishes</h1>
+            <div class="w-full flex justify-center">
+                <hr class="text-amber-600 mt-2 w-16 text-center">
+            </div>
+        </div>
+        <!-- gird -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-0 border-amber-500 p-10">
+            <main class="w-full h-auto overflow-hidden mb-5 bg-muted">
+                <img class="object-cover hover:scale-105 transition-transform duration-700" src="https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?w=600&h=400&fit=crop&auto=format" alt="">
+                <div class="p-2 w-full h-full">
+                    <div class=" flex justify-between">
+                        <p class="text-amber-600 font-serif">ENTERR</p>
+                        <p class="text-black font-serif">$38</p>
+                    </div> <br>
+                    <h1 class="text-black font-serif text-2xl tracking-[0.1em]">Seared Foie Gras</h1> <br>
+                    <p class="text-mauve-400 font-serif">Pan-seared duck liver, brioche toast, fig compote, aged balsamic reduction.</p>
+                </div>
+            </main>
+            <main class="w-full h-auto overflow-hidden mb-5 bg-muted">
+                <img class="object-cover hover:scale-105 transition-transform duration-700" src="https://images.unsplash.com/photo-1676471926534-d5c9771909fa?w=600&h=400&fit=crop&auto=format" alt="">
+                <div class="p-2 w-full h-full">
+                    <div class=" flex justify-between">
+                        <p class="text-amber-600 font-serif">MAIN</p>
+                        <p class="text-black font-serif">$58</p>
+                    </div> <br>
+                    <h1 class="text-black font-serif text-2xl tracking-[0.1em]">Sole Meunière</h1> <br>
+                    <p class="text-mauve-400 font-serif">Dover sole, brown butter, capers, lemon, fresh parsley, steamed asparagus</p>
+                </div>
+            </main>
+            <main class="w-full h-auto overflow-hidden mb-5 bg-muted">
+                <img class="object-cover hover:scale-105 transition-transform duration-700" src="https://images.unsplash.com/photo-1663530761401-15eefb544889?w=600&h=400&fit=crop&auto=format" alt="">
+                <div class="p-2 w-full h-full">
+                    <div class=" flex justify-between">
+                        <p class="text-amber-600 font-serif">MAIN</p>
+                        <p class="text-black font-serif">$98</p>
+                    </div> <br>
+                    <h1 class="text-black font-serif text-2xl tracking-[0.1em]">Wagyu Entrecôte</h1> <br>
+                    <p class="text-mauve-400 font-serif">200g A5 Wagyu ribeye, truffle jus, pommes dauphine, wilted spinach</p>
+                </div>
+            </main>              
+        </div>
+
+        <div class="flex mt-4 justify-center">
+            <button class="text-black border-[1px] h-[45px] w-[250px] flex items-center justify-center gap-2 hover:bg-black hover:text-white">VIEW FULL MENU
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row p-6 md:p-12 lg:p-24 relative" style="background-color: rgb(233, 226, 215);">
+        <div class="w-full lg:w-[45%] border-0 border-amber-500 overflow-hidden md:ms-0">
+            <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=700&h=900&fit=crop&auto=format" alt="">
+        </div>
+        <div class="w-full lg:w-[55%] border-0 border-amber-500 p-14 flex flex-col justify-center">
+            <p class=" text-amber-500 font-mono">OUR STORY</p> <br>
+            <h1 class="text-black text-6xl">Cooking is an act of love, not commerce.</h1> <br>
+            <p class="text-mauve-400">Chef Jean-Pierre Laurent trained under legendary figures in Lyon and Paris before opening Maison Dorée in 2008. His philosophy is simple: extraordinary ingredients treated with extraordinary respect.</p> <br>
+            <p class="text-mauve-400">Every morning begins at the markets of Île-de-France. Every menu is dictated by what arrived that day — never by habit, never by convenience.</p> <br>
+            <p class="flex items-center gap-3 text-black"><a href="">MEET THE TEAM</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                </svg>
+            </p>
+            <hr class="text-black w-[155px]">
+        </div>
+        <div class="lg:absolute w-full lg:w-[200px] text-center lg:text-left lg:bottom-12 lg:left-[40%] border-0 border-amber-400 bg-black p-6">
+            <p class="text-amber-600 text-5xl first-letter:text-3xl font-">18</p>
+            <p class="text-mauve-400">YEARS OF CRAFT</p>
+        </div>
+    </div>
+
+    <div class="w-full py-20" style="background-color: rgb(238, 235, 232);">
+        <div class=" flex flex-col justify-center">
+            <p class="text-amber-500 text-center tracking-[0.2em] text-[12px] mt-20">WHAT GUESTS SAY</p> <br> 
+            <p class="text-black text-center text-6xl">Voices of the Table</p> <br>
+            <div class="flex justify-center">
+                <hr class="text-amber-600 mt-2 w-16">
+            </div>
+        </div>
+        <div class="container p-[70px] mt-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
+                <main class="p-5 border-[1px] border-mauve-300 bg-white">
+                    <p class="text-amber-600 flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                    </p> <br>
+                    <p class="text-mauve-400">"A transcendent dining experience. Chef Laurent's mastery of classical technique with modern sensibility is simply unmatched in Paris today."</p> <br>
+                    <div class="container flex gap-2">
+                        <div class="w-[50px] h-[50px]   rounded-[100%] overflow-hidden flex">
+                            <img class="object-cover" src="https://i.pinimg.com/736x/82/01/55/82015575825f06e05beb2ca60a5d2948.jpg" alt="">
+                        </div>
+                        <div class="font-sans">
+                            <p class="text-black">Élise Moreau</p>
+                            <p class="text-mauve-400">Food Critic, Le Monde</p> 
+                        </div>
+                    </div>
+                </main>
+                <main class="p-5 border-[1px] border-mauve-300 bg-white">
+                    <p class="text-amber-600 flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                    </p> <br>
+                    <p class="text-mauve-400">"Every dish told a story — of the land, the season, and of a chef deeply in love with his craft. We will return for every Paris visit."</p> <br>
+                    <div class="container flex gap-2">
+                        <div class="w-[50px] h-[50px]   rounded-[100%] overflow-hidden flex">
+                            <img class="object-cover" src="https://i.pinimg.com/736x/79/f1/f7/79f1f73bc70ac49426515f9580d1eecd.jpg" alt="">
+                        </div>
+                        <div class="font-sans">
+                            <p class="text-black">James Whitfield</p>
+                            <p class="text-mauve-400">Travel Writer</p> 
+                        </div>
+                    </div>
+                </main>
+                <main class="p-5 border-[1px] border-mauve-300 bg-white">
+                    <p class="text-amber-600 flex gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                    </p> <br>
+                    <p class="text-mauve-400">"The amuse-bouche alone merits the trip. This is French cuisine at its most refined — rigorous, seasonal, and utterly delicious."</p> <br>
+                    <div class="container flex gap-2">
+                        <div class="w-[50px] h-[50px]   rounded-[100%] overflow-hidden flex">
+                            <img class="object-cover" src="https://i.pinimg.com/736x/ca/06/95/ca06959bc8ce6611f034423740b84c56.jpg" alt="">
+                        </div>
+                        <div class="font-sans">
+                            <p class="text-black">Isabelle Chen</p>
+                            <p class="text-mauve-400">Michelin Inspector</p> 
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+
+        <div class="container w-full h-auto p-[70px]">
+            <div class="grid grid-cols-1 lg:grid-cols-6 md:grid-cols-3 gap-2">
+                <mai class="overflow-hidden">
+                    <img class="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90" src="https://images.unsplash.com/photo-1689672235501-6dc1e56d454c?w=300&h=300&fit=crop&auto=format" alt="">
+                </mai>
+                <mai class="overflow-hidden">
+                    <img class="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90" src="https://images.unsplash.com/photo-1565895405227-31cffbe0cf86?w=800&h=600&fit=crop&auto=format" alt="">
+                </mai>
+                <mai class="overflow-hidden">
+                    <img class="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90" src="https://images.unsplash.com/photo-1621494268492-d01b98eba7e4?w=300&h=300&fit=crop&auto=format" alt="">
+                </mai>
+                <mai class="overflow-hidden">
+                    <img class="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=300&h=300&fit=crop&auto=format" alt="">
+                </mai>
+                <mai class="overflow-hidden">
+                    <img class="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90" src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=300&h=300&fit=crop&auto=format" alt="">
+                </mai>
+                <mai class="overflow-hidden">
+                    <img class="object-cover w-full h-full hover:scale-110 transition-transform duration-500 opacity-90" src="https://images.unsplash.com/photo-1565895405140-6b9830a88c19?w=300&h=300&fit=crop&auto=format" alt="">
+                </mai>
+            </div>
+            <div class="w-full flex mt-10 justify-center">
+                <h1><a class="flex items-center gap-3 text-mauve-400" href="">VIEW FULL GALLERY 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>
+                </a></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-[50vh]" style="background-color: rgb(40, 27, 24);">
+        <p class="text-center text-[12px] text-amber-500 pt-15 tracking-[0.3em]">STAY​​​ CONNECTED</p> <br>
+        <p class="text-center text-5xl">The Maison Journal</p> <br>
+        <p class="text-center text-mauve-400">Seasonal menus, chef's notes, wine pairings, and exclusive event invitations — delivered to your inbox.</p> <br>
+        <div class="w-full flex justify-center">
+            <input class="text-mauve-400 border-[2px] border-mauve-400 w-[400px] h-14 ps-5" type="text" placeholder="Your email address"> <br>
+            <button class=" bg-amber-600 w-[140px]">SUBSCRIBE</button>
+        </div> 
+    </div>
+
+    <div class="w-full h-[90vh] bg-[url(https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=800&h=600&fit=crop&auto=format)] bg-black/70 bg-blend-overlay">
+        <div class="w-full h-full flex flex-col justify-center text-center items-center">
+            <h1 class="lg:text-5xl md:text-4xl text-2xl font-medium">Join Us For an</h1>
+            <h1 class="lg:text-5xl md:text-4xl text-2xl font-medium">Unforgetable Evening</h1> <br>
+            <p class="text-mauve-400">Tables fill quickly. Secure your evening now and allow us to create a moment you </p>
+            <p class="text-mauve-400">will carry with you. </p> <br>
+            <button class=" bg-amber-600 h-14 w-[150px] lg:w-[250px] md:w-[200px] hover:bg-[#b5682e] transition-colors duration-200">SERVES YOUR TABLE</button>
+        </div>
+    </div>
+    <footer class="bg-[#1a1008] text-white/80">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+        </div>
+    </footer>
+</body>
+</html>
