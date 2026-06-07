@@ -7,9 +7,25 @@
     <link rel="stylesheet" href="/src/output.css">
 </head>
 <body  class="font-['Playfair_Display'] text-white">
+    <nav class="flex flex-col md:flex-row h-auto items-center p-5 fixed top-0 left-0 right-0 z-50 bg-[#1a1008]/95 backdrop-blur-sm shadow-lg bg-transparent" >
+        <div class="md:w-[55%] md:text-left flex justify-start ps-[120px] h-full border-0 border-amber-500">
+            <h1 class="text-2xl font-medium font-serif tracking-widest">FRESH BITES</h1>
+        </div>
+        <div class="md:w-[45%] h-full mt-4 md:mt-0">
+            <ul class="flex flex-wrap gap-8 text-1xl items-center justify-center">
+                <li class="hover:text-amber-600"><a href="">HOME</a></li>
+                <li class="hover:text-amber-600"><a href="">MENU</a></li>
+                <li class="hover:text-amber-600"><a href="">ABOUT</a></li>
+                <li class="hover:text-amber-600"><a href="">GALLERY</a></li>
+                <li class="hover:text-amber-600"><a href="">BLOG</a></li>
+                <li class="hover:text-amber-600"><a href="">CONTACT</a></li>
+                <li class="hover:bg-[#b5682e] transition-colors duration-200"><a href=""><button class="bg-amber-600 p-2 w-[120px]">RESERVES</button></a></li>
+            </ul>
+        </div>
+    </nav>
     <div class="bg-[url(https://images.unsplash.com/photo-1565895405227-31cffbe0cf86?w=1800&h=1000&fit=crop&auto=format)] bg-black/70 bg-blend-overlay pt-px">
         <!-- Navbar -->
-        <div class="container flex flex-col md:flex-row h-auto items-center p-5">
+        <!-- <nav class="flex flex-col md:flex-row h-auto items-center p-5 fixed top-0 left-0 right-0 z-50">
             <div class="md:w-[55%] md:text-left flex justify-start ps-[120px] h-full border-0 border-amber-500">
                 <h1 class="text-2xl font-medium font-serif tracking-widest">FRESH BITES</h1>
             </div>
@@ -24,9 +40,9 @@
                     <li class="hover:bg-[#b5682e] transition-colors duration-200"><a href=""><button class="bg-amber-600 p-2 w-[120px]">RESERVES</button></a></li>
                 </ul>
             </div>
-        </div>
+        </nav> -->
         <!-- Contain -->
-        <div class="w-full h-[90vh] border-0 flex flex-col justify-center items-center text-center">
+        <div class="w-full h-[100vh] border-0 flex flex-col justify-center items-center text-center">
             <p class="uppercase mb-8 text-amber-600 tracking-[0.5em]">Est. 2008 · Paris, France</p>
             <h1 class="lg:text-8xl md:text-6xl text-4xl font-serif font-medium">Where Every Dish</h1>
             <h1 class="lg:text-8xl md:text-6xl text-4xl font-serif italic font-medium">Tell a Story</h1>
@@ -421,14 +437,14 @@
                 </div>
             </ul>
         </div> <br>
-        <div class="p-10 lg:text-[10px] text-[8px]">
+        <div class="p-10">
             <hr class="text-mauve-400">
             <div class="flex justify-between text-mauve-400 mt-5">
-                <span>© 2026 Maison Dorée. All rights reserved.</span>
+                <p class="lg:text-[15px]">© 2026 Maison Dorée. All rights reserved.</p>
                 <div class="text-sm space-y-3">
                     <div class="flex justify-evenly gap-5">
-                        <span>Privacy Policy</span>
-                        <span>Terms of Service</span>
+                        <p class="lg:text-[15px]">Privacy Policy</p>
+                        <p class="lg:text-[15px]">Terms of Service</p>
                     </div>
                 </div>
             </div>
